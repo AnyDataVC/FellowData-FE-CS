@@ -5,6 +5,10 @@
 - 2 空格缩进
 - UTF-8 编码
 
+### 引号
+
+使用单引号，JS 内 html 相关使用双引号
+
 ### 严格模式
 
 建议所有业务代码打开严格模式
@@ -55,4 +59,70 @@ if (aa & bb) {
 
 ### 注释
 
+使用 // 作为注释符，可以使用 /* */ 作为多行注释符。注释符号与注释内容之间留空，注释的位置尽量放在代码之上：
+
+```js
+/*not recommend*/
+//not recommend
+; // recommend
+
+/* recommend */
+// recommend
+;
+```
+
+### 不要为大括号另开一行
+
+```js
+// not recommend
+if (foo)
+{
+  // ...
+}
+
+// recommend
+if (foo) {
+  // ...
+}
+
+// not recommend
+return
+{
+  a: 1
+};
+
+// recommend
+return {
+  a: 1
+};
+```
+
+只有一行语句时允许不带括号，但需把语句紧跟当前行后
+
+```js
+if (foo) doSomething();
+for (var i = 0; i < 10; i++) doSomething();
+```
+
+写 else 时不要另起一行
+
+```js
+// not recommend
+if (test) {
+  things1();
+  things2();
+}
+else {
+  things3();
+}
+
+// recommend
+if (test) {
+  things1();
+  things2();
+} else {
+  things3();
+}
+
+```
 
