@@ -6,5 +6,5 @@
 
 - [HTML 代码风格](https://fellowplus.com)
 - [CSS 代码风格](https://fellowplus.com)
-- [Javascript 代码风格](https://fellowplus.com)
+- [Javascript 代码风格](https://github.com/AnyDataVC/FellowPlus-FE-CS/blob/master/javascript.md)
 
