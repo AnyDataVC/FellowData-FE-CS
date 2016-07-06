@@ -17,6 +17,8 @@
 'use strict';
 ```
 
+**禁止使用 `eval` 和 `with`**
+
 ### 分号
 
 在语句（Statement）的结尾加分号
